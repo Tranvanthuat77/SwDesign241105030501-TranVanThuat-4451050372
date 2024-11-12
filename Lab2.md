@@ -145,3 +145,4 @@ Payroll System: Liên kết với Employee và Bank System, điều phối việ
 Employee: Có thuộc tính như employeeId, name, paymentMethod.
 
 Bank System: Liên kết với Payroll System để thực hiện chuyển khoản.
+
