@@ -86,41 +86,44 @@
 
 ---
 
-# 5. Generate Payroll Report
+## 5. Maintain Purchase Order
 
-## 5.1. Xác định các lớp phân tích:
-- **Payroll Administrator (Quản trị viên tiền lương)**: Yêu cầu tạo báo cáo tiền lương.
-- **Payroll System (Hệ thống trả lương)**: Xử lý và tạo báo cáo tiền lương.
-- **Report (Báo cáo)**: Đại diện cho báo cáo tiền lương.
+### 5.1. Xác định các lớp phân tích
+- **Commissioned Employee (Nhân viên hoa hồng)**: Thực hiện các thay đổi thông tin đơn hàng.
+- **Payroll System (Hệ thống trả lương)**: Quản lý và lưu trữ thông tin đơn hàng.
+- **Purchase Order (Đơn hàng)**: Đại diện cho đơn hàng.
 
-## 5.2. Mô tả hành vi qua biểu đồ Sequence:
-![Sequence Diagram](https://www.planttext.com/api/plantuml/png/hVNdYy8i5Q15gm8rtHhYPWLSm1A7Qb56wn6woicOprKEm6bTbq3t-MsSEkNUDq5UMXbHfKYHkxiHrCpzxf-12Rz_6MfGHltcAhNEuNw0fR40ctLGg6wotnSIZp29eITXZzntzFqlMj_Gb4OTe5-Vf_jtAq4cb91zOtEowzsm5ga-VNRav5jxya_1gB34kjBqjiEzeIkwtVVsaMPbg7kFBz7I0Whh9b48PvD5w-7UNdeA0F_k8PQ9ETqKlHqg9qxZzXgH54cNY5Aqg0g7RzoM9oFCXvk=)
+### 5.2. Mô tả hành vi qua biểu đồ Sequence
+![Biểu đồ Sequence cho Maintain Purchase Order](https://www.planttext.com/api/plantuml/png/t9InIiDG68Nt-nI7JWhr1Jf8eKk6qYb87IzfQGBfJKXlnCuE3Yujle2rY50K19sImU6MliTz0b_1_wQjD5vR8cvcI20vv_p_-RZa8tzlZYHFP3eC6VTabA3MyTMzm4MW5W9EnE7h_5OCQk0ZTCwS5ej97dX1p8L4pT7vDIH9fc80Dz7P7E7gPJNR61pNRPSDombzXA_kDehbn67CvEBaj90tSAuMAJoTFQRefMF8H3rXEVsoCQCoQkCggSD8PxE0rk4Hf9fvE7BfHLH7IsVFCOHF3rb7LxtousypModjJoaFiPN2U2XH19Ms05rxDv6-UgD06GZBitVk0Szs3i5gL5gbQzeNVKsOcaDQfduuwfV0L6ytfC3AjNuIRvFNuZRfnbNghnTn0frVYUBGtVmLjBVJtoRz2peMS6-Vj-1kZk3_vhqBvF9Gsu9q1HuMOIkrBtgiIJVpB_i4003__mC0)
 
-## 5.3. Nhiệm vụ của từng lớp phân tích:
-- **Payroll Administrator**: Đưa ra yêu cầu và tiêu chí tạo báo cáo tiền lương.
-- **Payroll System**: Tạo báo cáo tiền lương.
-- **Report**: Lưu trữ báo cáo tiền lương.
+### 5.3. Nhiệm vụ của từng lớp phân tích
+- **Commissioned Employee**: Thực hiện các thao tác thêm, cập nhật và xóa thông tin đơn hàng.
+- **Payroll System**: Xử lý và lưu trữ thông tin đơn hàng.
+- **Purchase Order**: Lưu trữ thông tin chi tiết về đơn hàng.
 
-## 5.4. Thuộc tính và quan hệ giữa các lớp:
-- **Payroll Administrator**: Có thuộc tính như `adminId`, `name`.
-- **Payroll System**: Quản lý thông tin báo cáo tiền lương.
-- **Report**: Bao gồm các thuộc tính như `salary`, `bonus`, `deductions`.
-# 6. Generate Payment Report
+### 5.4. Thuộc tính và quan hệ giữa các lớp
+- **Commissioned Employee**: Có thuộc tính như `employeeId`, `name`.
+- **Payroll System**: Liên kết với `Purchase Order` và `Commissioned Employee`, điều phối việc quản lý thông tin đơn hàng.
+- **Purchase Order**: Bao gồm các thuộc tính như `orderId`, `customerContact`, `billingAddress`, `productDetails`, `date`.
 
-## 6.1. Xác định các lớp phân tích:
-- **Payroll Administrator (Quản trị viên tiền lương)**: Yêu cầu tạo báo cáo thanh toán.
-- **Payroll System (Hệ thống trả lương)**: Xử lý và tạo báo cáo thanh toán.
-- **Report (Báo cáo)**: Đại diện cho báo cáo thanh toán.
+---
 
-## 6.2. Mô tả hành vi qua biểu đồ Sequence:
-![Sequence Diagram](https://www.planttext.com/api/plantuml/png/xVBDI8m43B95fL5ay88H8RNN70b8V2gMjp3mvqexOzh2yNCtTSxy5KnobVfhh1boh-4MEC9yD_JA3Kxks-T2YMBFgLv8QsK9j2M2UNuLpfqZ0he8uNjsNDRjeUJfVNB2A7gtqD0S_mWsJ9h7d1HV2p8oHpxyhv9cI-wrWks3CkVJlODVRRkDNf_Qpegl1Cya_Mx6UJ4esH0zKHwa-WfhkOs_AwDbAs2rrbW02lcdbuROr7scdV2u6p9SovPq9r3V1nE7X5ztswmr57UJc4Dmt_gNKYevXUMzPU5_AmiZlAfpBej__f1f-l1hhzQkA==)
+## 6. Run Payroll
 
-## 6.3. Nhiệm vụ của từng lớp phân tích:
-- **Payroll Administrator**: Đưa ra yêu cầu và tiêu chí tạo báo cáo thanh toán.
-- **Payroll System**: Tạo báo cáo thanh toán dựa trên yêu cầu của quản trị viên.
-- **Report**: Lưu trữ thông tin báo cáo thanh toán.
+### 6.1. Xác định các lớp phân tích
+- **Payroll System (Hệ thống trả lương)**: Quản lý và tính toán bảng lương.
+- **Employee (Nhân viên)**: Nhận lương từ hệ thống.
+- **Bank System (Hệ thống ngân hàng)**: Thực hiện chuyển khoản cho nhân viên.
 
-## 6.4. Thuộc tính và quan hệ giữa các lớp:
-- **Payroll Administrator**: Có thuộc tính như `adminId`, `name`.
-- **Payroll System**: Quản lý việc tạo báo cáo thanh toán.
-- **Report**: Bao gồm các thuộc tính như `paymentAmount`, `paymentDate`, `paymentMethod`.
+### 6.2. Mô tả hành vi qua biểu đồ Sequence
+![Biểu đồ Sequence cho Run Payroll](https://www.planttext.com/api/plantuml/png/X98nQiCm58Ptd-AHlHV8K48d5uBfO49NLmcMgFCSOhcGiNJeq2atY1jAII4qGo4W3HbKSeztWbwXJqcmuwNLO67y_x--_ra_TjShT3BLvJWB9hmheIO9QkY4P9z1Ix9pJ26Uabb2jj_iAqmxa1GGnd6_ROYaUqLuKEu33ufey4TWb7gnT8iwBWg3m8V2nUKXl0jNP3urVC_9l9SW99bg1dVCmVOJIMs81bteatcRyG7kYmLQ8M0318934FHvZPOvTckKe7DNOVqzoJJSoEFB0NmbU4iQdLimLZaZ-uHmBtEF5W2lfaOKSZI3vv2g98SXsHSX0Plo9tqKDhLlNIMOdSmQMoxj3HA4xnUCicBqBvnMP1yHncIs6ZpVLa3XLg85wTjV8qoa8hChw_8Z7BO6T4vrql2lSKj-x3Tab-8utA37Hd-NVW400F__0m00)
+
+### 6.3. Nhiệm vụ của từng lớp phân tích
+- **Payroll System**: Quản lý quy trình tính toán và thanh toán lương.
+- **Employee**: Nhận lương từ hệ thống.
+- **Bank System**: Thực hiện chuyển khoản cho nhân viên.
+
+### 6.4. Thuộc tính và quan hệ giữa các lớp
+- **Payroll System**: Liên kết với `Employee` và `Bank System`, điều phối việc tính toán và thanh toán lương.
+- **Employee**: Có thuộc tính như `employeeId`, `name`, `paymentMethod`.
+- **Bank System**: Liên kết với `Payroll System` để thực hiện chuyển khoản.
