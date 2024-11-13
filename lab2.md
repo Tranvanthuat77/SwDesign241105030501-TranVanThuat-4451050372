@@ -72,7 +72,7 @@
 - **Employee (Nhân viên)**: Đại diện cho thông tin nhân viên.
 
 ## 4.2. Mô tả hành vi qua biểu đồ Sequence:
-![Sequence Diagram](https://www.planttext.com/api/plantuml/png/v5I_IiD06D_lAJuwATGNw225BXbAe72KEXvfQGB99IGNiQCuE7GgFa4i8WG5GQTaS3ZfUzmJ-0hzxbHiMbCRLpCao_Vx-ttalNpj9eB58WrymXmHnj0QfAfOSX2nAkTmxicS0_LKUSd1NpsjCZvj0KjWG8UqJoA4UeuNCIwWPQdo6eIhoWMV0esHfOAmw3R0TkKj_v0m4_QG4CCB9wTcl0DdCa_1KSLz2kDqXgRa0qh85rGG7WV-pK0qG0CDGmNfXwh8FCIn48JC73YYhio3DlHKyHWX2Nv46qRocHrl6-YbA8KqTz4E3M6-0CDKyGAm-J8NMRw5A==)
+![Sequence Diagram](https://www.planttext.com/api/plantuml/png/Z9AnJiCm48RtFCKf4qZb1JgWAbawTAba8HXJWnABu4JfkH8Z4mDJtu1G8QHA5SpEqC6ex-4du1KukofA8uXOBCl-_hl_VlkhsOxcc5Iexl8WuLXK44wLrIi9MDdc2HR2h2KmOPi72VdkOrVBD8Ha3bDsmIP1ILB1HPb8X71icqV0p3PBcGAhgCgHOiowWiZK1N1Q_7qK1u6l2cVd7Xx2bLahu5Q_AK2h2PuT58437EWLnwJm-yniMdYdSAp88k6lvQyudEG5zHC3aAbvleUPrUy8dqjN_t1sQ_KMQLoZ-G3GfIGpyoBtYPt--8lY8R1-xoqpVnfkpKUPgdy5iN0FY1KDvYGz4NJ0jlL9RxDBKtCQs-gDf7JCgkjjT2EltS_w1W00__y30000)
 
 ## 4.3. Nhiệm vụ của từng lớp phân tích:
 - **Payroll Administrator**: Chỉnh sửa thông tin nhân viên.
