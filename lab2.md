@@ -94,7 +94,7 @@
 - **Purchase Order (Đơn hàng)**: Đại diện cho đơn hàng.
 
 ## 5.2. Mô tả hành vi qua biểu đồ Sequence
-![Biểu đồ Sequence cho Maintain Purchase Order](https://www.planttext.com/api/plantuml/png/t9InIiDG68Nt-nI7JWhr1Jf8eKk6qYb87IzfQGBfJKXlnCuE3Yujle2rY50K19sImU6MliTz0b_1_wQjD5vR8cvcI20vv_p_-RZa8tzlZYHFP3eC6VTabA3MyTMzm4MW5W9EnE7h_5OCQk0ZTCwS5ej97dX1p8L4pT7vDIH9fc80Dz7P7E7gPJNR61pNRPSDombzXA_kDehbn67CvEBaj90tSAuMAJoTFQRefMF8H3rXEVsoCQCoQkCggSD8PxE0rk4Hf9fvE7BfHLH7IsVFCOHF3rb7LxtousypModjJoaFiPN2U2XH19Ms05rxDv6-UgD06GZBitVk0Szs3i5gL5gbQzeNVKsOcaDQfduuwfV0L6ytfC3AjNuIRvFNuZRfnbNghnTn0frVYUBGtVmLjBVJtoRz2peMS6-Vj-1kZk3_vhqBvF9Gsu9q1HuMOIkrBtgiIJVpB_i4003__mC0)
+![Sequence](https://www.planttext.com/api/plantuml/png/t9InIiDG68Nt-nI7JWhr1Jf8eKk6qYb87IzfQGBfJKXlnCuE3Yujle2rY50K19sImU6MliTz0b_1_wQjD5vR8cvcI20vv_p_-RZa8tzlZYHFP3eC6VTabA3MyTMzm4MW5W9EnE7h_5OCQk0ZTCwS5ej97dX1p8L4pT7vDIH9fc80Dz7P7E7gPJNR61pNRPSDombzXA_kDehbn67CvEBaj90tSAuMAJoTFQRefMF8H3rXEVsoCQCoQkCggSD8PxE0rk4Hf9fvE7BfHLH7IsVFCOHF3rb7LxtousypModjJoaFiPN2U2XH19Ms05rxDv6-UgD06GZBitVk0Szs3i5gL5gbQzeNVKsOcaDQfduuwfV0L6ytfC3AjNuIRvFNuZRfnbNghnTn0frVYUBGtVmLjBVJtoRz2peMS6-Vj-1kZk3_vhqBvF9Gsu9q1HuMOIkrBtgiIJVpB_i4003__mC0)
 
 ## 5.3. Nhiệm vụ của từng lớp phân tích
 - **Commissioned Employee**: Thực hiện các thao tác thêm, cập nhật và xóa thông tin đơn hàng.
@@ -116,7 +116,7 @@
 - **Bank System (Hệ thống ngân hàng)**: Thực hiện chuyển khoản cho nhân viên.
 
 ## 6.2. Mô tả hành vi qua biểu đồ Sequence
-![Biểu đồ Sequence cho Run Payroll](https://www.planttext.com/api/plantuml/png/X98nQiCm58Ptd-AHlHV8K48d5uBfO49NLmcMgFCSOhcGiNJeq2atY1jAII4qGo4W3HbKSeztWbwXJqcmuwNLO67y_x--_ra_TjShT3BLvJWB9hmheIO9QkY4P9z1Ix9pJ26Uabb2jj_iAqmxa1GGnd6_ROYaUqLuKEu33ufey4TWb7gnT8iwBWg3m8V2nUKXl0jNP3urVC_9l9SW99bg1dVCmVOJIMs81bteatcRyG7kYmLQ8M0318934FHvZPOvTckKe7DNOVqzoJJSoEFB0NmbU4iQdLimLZaZ-uHmBtEF5W2lfaOKSZI3vv2g98SXsHSX0Plo9tqKDhLlNIMOdSmQMoxj3HA4xnUCicBqBvnMP1yHncIs6ZpVLa3XLg85wTjV8qoa8hChw_8Z7BO6T4vrql2lSKj-x3Tab-8utA37Hd-NVW400F__0m00)
+![Sequence](https://www.planttext.com/api/plantuml/png/X98nQiCm58Ptd-AHlHV8K48d5uBfO49NLmcMgFCSOhcGiNJeq2atY1jAII4qGo4W3HbKSeztWbwXJqcmuwNLO67y_x--_ra_TjShT3BLvJWB9hmheIO9QkY4P9z1Ix9pJ26Uabb2jj_iAqmxa1GGnd6_ROYaUqLuKEu33ufey4TWb7gnT8iwBWg3m8V2nUKXl0jNP3urVC_9l9SW99bg1dVCmVOJIMs81bteatcRyG7kYmLQ8M0318934FHvZPOvTckKe7DNOVqzoJJSoEFB0NmbU4iQdLimLZaZ-uHmBtEF5W2lfaOKSZI3vv2g98SXsHSX0Plo9tqKDhLlNIMOdSmQMoxj3HA4xnUCicBqBvnMP1yHncIs6ZpVLa3XLg85wTjV8qoa8hChw_8Z7BO6T4vrql2lSKj-x3Tab-8utA37Hd-NVW400F__0m00)
 
 ## 6.3. Nhiệm vụ của từng lớp phân tích
 - **Payroll System**: Quản lý quy trình tính toán và thanh toán lương.
