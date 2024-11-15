@@ -1,8 +1,8 @@
 # Lab 3. Identify Design Elements
 
-## 1. Xác định các phần tử thiết kế của hệ thống “Payroll System”
+# Xác định các phần tử thiết kế của hệ thống “Payroll System”
 
-### Subsystem Context Diagrams
+## 1. Subsystem Context Diagrams
 
 #### Biểu Đồ Ngữ Cảnh Hệ Thống Con BankSystem
 
