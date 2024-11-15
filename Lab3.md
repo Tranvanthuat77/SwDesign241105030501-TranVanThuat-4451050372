@@ -112,3 +112,4 @@ Biểu đồ này cho thấy ĐiềuKhiểnTrảLương có thể tương tác v
 
 ### Mối quan hệ giữa các layers:
 - **EmployeeActivities**, **PayrollActivities**, và **Security** trong **Applications Layer** phụ thuộc vào các dịch vụ trong **Business Services Layer**
+- Các dịch vụ trong **Business Services Layer** phụ thuộc vào các cơ sở dữ liệu tương ứng trong **Database Layer**
