@@ -60,4 +60,55 @@ Biểu đồ này cho thấy ĐiềuKhiểnTrảLương có thể tương tác v
 
 ### Login
 
-![Mapping Analysis Classes to Design Elements - Login](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niOAIqyDTY_FI5GutvcKeH3pSjL319pyzCqz98R5OmJUne20pBpqaCIadrLYXcai126eKV1x
+![Mapping Analysis Classes to Design Elements - Login](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niOAIqyDTY_FI5GutvcKeH3pSjL319pyzCqz98R5OmJUne20pBpqaCIadrLYXcai126eKV1xkdbsW491nU56UGiZXjSaP2iYW1YZpSDToeDJ3tMiLGZ8o7-xQNwBW3IGHIY06wU86UEIWcXL2YrEB5B226eWFtFABSZ6ae9e34YkBydDo588hYqjISr4rEvQMPAJcbMGc9vPavkS5fnQLPIQdGZJNSZcavgM0mWu0003__mC0)
+
+ ### Maintain Employee Information
+
+![Mapping Analysis Classes to Design Elements - Maintain Employee Information](https://www.planttext.com/api/plantuml/png/V94zJWCn48NxFSLJUZeE47ub194YPGlQ8J6xbkpnofuKAqB1EQY0WYeNs2rIx4by0gw0LoJPH0YUP3VVUvuVVxMRSH3oihGccniA0QFps7nmWUw5Izp7vWqJqYpfuCfMnjLAuOOVdRSasl4859AZgZGNEJqOTOgd34ahtCNsjSAqxDuPURUUbpZKAf7OV2OKspNoKiTc8xXDzs3vUUZaR_t3jc5CgVRE69mjh6OTn9Cul-rWDz24c0fb5Sjrcckel0_FwY3A7hU_2r-Iq8LZwOtA7uJtw_gbWVMRF4RPSpPMlEW_v1i00F__0m00)
+
+### Maintain Purchase Order
+
+![Mapping Analysis Classes to Design Elements - Maintain Purchase Order](https://www.planttext.com/api/plantuml/png/V54xJWCn4Ett54_fAUaZ8f0GHAp45hHcTuWjsUELxHGhGi4vg4WAgbnWjqYn9_49k08E9Cec4ddIJFFcpPlFTxSP-o1Sc1kTbLfuZz5LR5SyG__E4a-n_SHKA0ufaCzTAOKdFBYAt0Z29wwk5SyAyQpf4gyP4XQuZzr7ZLpsIqRHhqk98HQ9YUrNecAtHY5LR3S1ToaVIluQNVoFCznEZ8arHdclB5E5QrDhsn3j9zYjyhl9ZNNcn1cvQ9pL6e-D3sHEnX-A9vR3jfBSG7nqg3FYMtwn1-UtR4nSRL_n0m00__y30000)
+
+### Run Payroll
+
+![Mapping Analysis Classes to Design Elements - Run Payroll](https://www.planttext.com/api/plantuml/png/V90zRi9048Lxd-A9dZOrGaf58bdW8kra6M6BzQorkqIo0WNde28fKd41kw3mIVO4N04J207oyufflddpdcPNRtlEa_MpN4TAatFez4FrBXCqIqdn5AerXZD1JAKrMdT03ezK59bC4dhMV8VN2AtcU0Zrga2SDc-2fDce59UQjoHK7oqAzGP9ceLgwp5ev_VAyL3tR_t3JkQldXYLpdD-q-38OciKEsViRJBkyqARaXa_T3OFMHaxla8dSvza-alicIMMn97ocP4HsvTCyQTv4VLOneVtxm400F__0m00)
+
+### Select Payment
+
+![Mapping Analysis Classes to Design Elements - Select Payment](https://www.planttext.com/api/plantuml/png/V9AnJiCm48RtFCMfEpDhLOakK14f6LXTzwWZxBDb6wI8CF0SJBG3KryW6JhaIVm4l0AEsg3IfFo3b__qtV_h_Dtifyupwv-LJBXapi5a5kejhQ5z9m4FeVw432Lo3oah5PAV07EmOCOKjCxPKk8rl2OGLS5TQ3uCfABT4EJjZWiuLHMTK7z5ApGxo4KHwhs7s_Z-7Jl0hYxhFw-pZsbkb96wH8I1ghxBeLcXQQwjEa_G3Laj9MIbywX60QdL79tJTgn2FmGBz4AlHW7tfbi_27W4p1WzZQp_zNBBo3sYpT2-51o7W3x1CETvXNZDKqgLl2LJf5NtBtu0003__mC0)
+
+### Maintain Timecard
+
+![Mapping Analysis Classes to Design Elements - Maintain Timecard](https://www.planttext.com/api/plantuml/png/V94zQiD044PxdM9mdpwbCN6Q921i5Mx7wy7Qi3zYTXCGLWgVmrMI8fKl81KkT98zGQwG5N6CZHH_i5li-tZCiD_DOUmyid_HAX4AdOFH9DIVPWtjrkIm2FKxFA4qFXx8f2Q1l1e1klXQ5DAiCrmgkeLD0Z4LF8PcLq2Qjn-ntkv53kUf8WdrLqIXsKEMor0VF3p4-xBsAxlvFzTOXu_JJ7MXR4a4lLIdPQR6StblMGzCS2fT4yn8s5xZJv1YoLOfc9VEanuMf6m5EMTvKC3scOI7E_IuH4VdWYFhq9puLGgw4BmbOpAhxcT_0000__y30000)
+
+---
+
+## 3. Ánh xạ các phần tử thiết kế vào các gói
+
+![Mapping Design Elements to Packages](https://www.planttext.com/api/plantuml/png/d9CxRi9048PxJZ6Yj9GBkE8HG2X1GiAHqcxM4pnY7sXt0LaXHOuIfOXIf4fd2WfEuXFa2h5vH2QnaU0ljjZvzvj_f9tlrRfX7JDk9aMD2sOjr5jfygR6i7bH4TodoIiCepHvLn2agqy88agJjOERxAm3it2DbiQg8r2YSW5x40XFDSYq1C-hUkbvi5Dkwcs-2DfHklfWl_TbMkwmLoTqidXat4UyrMDINMraIJiOK1WAN323lZz2FZFaOj_ltVMXQvZ4XJQJGYuOC58TEHKwHlo3N49pEXN4cIEjhEyVRD3aZkRa2EtHZ12GHCvCM1BjR5QUg_2aY3nxnaEkjbREQ27GN9vh55k7iYqqd_ILG_F8E5QmXYpEkrN-2TWRIc9TnE8Hyib_HrPipImfpDPaX6PE70l0fd6KpU3iblLSQw0AyxNw0G00__y30000)
+
+---
+
+## 4. Các lớp kiến trúc và mối quan hệ giữa chúng
+
+![Architectural Layers and Their Dependencies](https://www.planttext.com/api/plantuml/png/T95D3e8m48NtFKNZdYiO8BfpOMHfM8nrGYQKqhI5X1XFvi8ZUGL5KChVzdlJzzvCNuzdQ1qOLnMIQH0vPCWtaTQI13WgbUK7QD1i-8rnVjuNMfODOYGSrUG8RSfRVeJ6b59wkAK9YigGQr9sPuDvN5bIQ2rFqDGaS9pGE_NQroO6bPFAV7H2NHhdGpzX1mukO76n-azClRI1VMmMbmo2xRpRmjehW_zBTFgyFfk-wGRdfQVN60LwOxE8DSCGrRNz_3S0003__mC0)
+
+**Giải thích:**
+
+### Applications Layer:
+- **EmployeeActivities**: Bao gồm các hoạt động liên quan đến nhân viên như nhập thông tin thời gian làm việc, chọn phương thức thanh toán, v.v.
+- **PayrollActivities**: Bao gồm các hoạt động liên quan đến việc xử lý lương bổng, tạo báo cáo lương, v.v.
+- **Security**: Bao gồm các hoạt động bảo mật, xác thực và phân quyền.
+
+### Business Services Layer:
+- **PayrollService**: Cung cấp các dịch vụ liên quan đến việc xử lý lương bổng.
+- **BankingService**: Cung cấp các dịch vụ liên quan đến giao dịch ngân hàng.
+- **ReportingService**: Cung cấp các dịch vụ liên quan đến việc tạo và quản lý báo cáo.
+
+### Database Layer:
+- **EmployeeDatabase**: Lưu trữ thông tin về nhân viên.
+- **PayrollDatabase**: Lưu trữ thông tin về các khoản lương và giao dịch liên quan.
+
+### Mối quan hệ giữa các layers:
+- **EmployeeActivities**, **PayrollActivities**, và **Security** trong **Applications Layer** phụ thuộc vào các dịch vụ trong **Business
