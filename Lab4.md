@@ -57,7 +57,6 @@ Chức năng này là cần thiết để đảm bảo rằng thời gian làm v
 
 4. Tính toán tiền lương
     ![Activity Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aOAInyFTxGeb6GztJynBLpWoyU7koK0Qo9sif91OhE2Sav-S7LnPN9AQ2zCGa5XPb9-Je-2SdrS2OgGMWLL2XH6YN4MfoIM9UUavgGWz49EK5Agv5800oN05NLqx1GrleBtpCy6kc0bqHSdXjNaP2YNvXnVcAPHaFjpTcAUGSsp3iOLvwPfW_IIe1vkFwKIGAHYY4BVuFDorj18OC8UtW4pEp0E7qTnCXVJCHA2nXnVaAfG1hMXFrYJ94A0PYmjWmGpr1T4sGSmC8HGgU1H0J8Wul30Px8PkeBg238WSsDQLoK0g4QORQXxHog5-FhQX5DatSCVLSZcavgM0aXu0003__mC0)
-)
 
    Mô tả
 Tên ca sử dụng: Tính toán tiền lương
@@ -74,7 +73,7 @@ Hậu điều kiện: Thông tin tiền lương được tính toán và lưu tr
 Lý do thiết kế
 Ca sử dụng này tập trung vào tự động hóa quá trình tính toán tiền lương nhằm giảm thiểu sai sót, tiết kiệm thời gian và đảm bảo tính chính xác. Việc tách rời các bước thu thập dữ liệu và tính toán giúp dễ dàng mở rộng hoặc điều chỉnh quy tắc tính lương khi cần.
 
-6. Phát hành phiếu lương
+5. Phát hành phiếu lương
 
    ![Activity Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aO9IG69bKNvEZe9pVbu9Y95QfAIGMAm05KQ8mjHxFDpThb2IyN3tnBnqXSmyXOUxbkP1T1HbvfK4LnQNfEPo5QKcboJcfUUa8io7o2WfL7Cf0066yGgwkdOA6iuPfGzthSnJI7guknjeoU4jG3jAW9OKP6G-tBM_L27ds8PZ2_FIDS5c4AqQR3Qoyy0kGF0XTdlYiWQB14I7H_xX1NaWYnVaPG2L75vOeW1ZevbJo-MGcfS22dK00000__y30000)
 
@@ -92,7 +91,7 @@ Hậu điều kiện: Nhân viên nhận được phiếu lương.
 Lý do thiết kế
 Thiết kế này nhằm đảm bảo nhân viên có bản cứng phiếu lương để đối chiếu khi cần. Quy trình được tối ưu hóa để phối hợp giữa PayrollController và hệ thống in ấn, giảm thiểu sai sót trong phát hành.
 
-7. Giao dịch trả lương
+6. Giao dịch trả lương
     ![Activity Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aO9IG69bKNvEZe9pVbu9Y95QfAIGMAm05KQ8mjHxFDpThb2IyN3tnBnqXRpqmulo538EByXB1-joIipB3guiBadDvIfAJIv9p4lFIKLO0P5HKgZcKW0231iKT7Nj53ISCqeVxbgPfv3qS7Stq9x3Mu3Mb6JcAQHd9kOhf005apCqmVg9KWas4ybL88q8BiJ6Y8Uxroha7DwBh56XfEZXhiKAESSs75kObmwra0Y541Czye4X0dBIWZmCasgv75BpKa0H00000F__0m00)
 
    Mô tả
