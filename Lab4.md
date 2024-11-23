@@ -162,6 +162,5 @@ Nhân viên nhận được lương qua tài khoản ngân hàng.
 
 **Lý do thiết kế:**  
 Ca sử dụng này đảm bảo quy trình trả lương tự động qua ngân hàng, tăng tính minh bạch và giảm thời gian thực hiện. Tích hợp với hệ thống ngân hàng giúp cải thiện độ chính xác và bảo mật của giao dịch.
-```
 
 
