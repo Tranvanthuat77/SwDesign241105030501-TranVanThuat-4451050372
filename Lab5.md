@@ -62,7 +62,7 @@
 
 ![subsystem diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bT1Od9sOdggWb9WwSDTY_CKSWxlLV1BFxRXuUwvcGefXtVcfIifL7CfA2Jd91ONAoYvvHVbAfHa7DwIbwvGafcda8Ug5A4muk7kjM33Gd0g1fkheA2huFnmrze2XRmC85M2P3XKrkVOXbA5agA7kzUZojLorN8vfEQbW7m10000__y30000)
 
-# 5. **Hệ thống con: Quản lý Hệ thống**#
+# 5. **Hệ thống con: Quản lý Hệ thống** #
 ## **Mô tả:** Chức năng chính: Giám sát và quản lý các chức năng của hệ thống. ##
 
 **Thành phần chính:**
