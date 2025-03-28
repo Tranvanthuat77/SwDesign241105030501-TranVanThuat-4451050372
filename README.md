@@ -1,3 +1,5 @@
+https://github.com/khanhdeptrai0501/GitHub-Copilot-LLM-API-claude-3-7-sonnet?fbclid=IwY2xjawJTogtleHRuA2FlbQIxMAABHSG_4A9kaXXXNhywGYNgASkS-11lsvNwUHBtjAW-C8cSG7QqwNN0Ws6LVA_aem_6xm6G2F4G4OupZaVCHuaow
+
 Đây là cách khắc phục
 
 Dưới đây là hướng dẫn từng bước để loại bỏ header “x-onbehalf-extension-id” khỏi tiện ích mở rộng GitHub Copilot Chat trong VS Code. Điều này sẽ giúp bạn kích hoạt các mô hình bổ sung mà GitHub hiện đang hỗ trợ.
